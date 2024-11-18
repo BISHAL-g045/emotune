@@ -1,0 +1,60 @@
+# ===================
+# General Ignore Rules
+# ===================
+.DS_Store
+Thumbs.db
+*.log
+
+# ===================
+# React Frontend
+# ===================
+# Node.js dependencies
+frontend/node_modules/
+
+# Build output
+frontend/build/
+
+# Environment variables
+frontend/.env
+
+# Temporary files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Editor-specific settings
+frontend/.vscode/
+frontend/.idea/
+
+# ===================
+# Python Backend
+# ===================
+# Python bytecode
+backend/__pycache__/
+backend/*.pyc
+
+# Virtual environment
+backend/venv/
+backend/env/
+
+# Dataset (if large)
+backend/Dataset/
+
+# Models (if large)
+backend/models/
+
+# Haarcascades (if large, remove if it's small and include it in the repo)
+backend/haarcascades/
+
+# Environment variables
+backend/.env
+
+# Jupyter Notebook checkpoints (if used)
+backend/.ipynb_checkpoints/
+
+# Log files
+backend/*.log
+
+# Editor-specific settings
+backend/.vscode/
+backend/.idea/

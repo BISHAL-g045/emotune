@@ -1,0 +1,17 @@
+bottle
+certifi
+chardet
+idna
+requests
+urllib3
+tensorflow
+opencv-python
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+flask
+flask_wtf
+flask_bcrypt
+flask_mysqldb
